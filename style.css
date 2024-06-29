@@ -1,0 +1,58 @@
+:root {
+  --main-color: #16ff00;
+  --primary-color: white;
+}
+
+#moonIcon {
+  padding-left: 100px;
+  cursor: pointer;
+}
+
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+/* Nav Starts */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+  font-family: sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+li {
+  display: inline;
+  list-style: none;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+  margin-left: 50px;
+  padding: 2px 5px;
+}
+
+li a:hover {
+  border-bottom: 2px solid var(--main-color);
+}
+/* Nav End */
+
+div {
+  height: 400px;
+  width: 100%;
+}
+
+#hero-pizza {
+  border-radius: 20px;
+}
